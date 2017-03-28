@@ -11,8 +11,9 @@ public class Dado extends java.lang.Object {
     int lados;
     int ultimoLancamento;
 
+    Random resultado = new Random();
+
     public int rolar () {
-        Random resultado = new Random();
         return Random.getIntRand(this.lados);
     }
 
