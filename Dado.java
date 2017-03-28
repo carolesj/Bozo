@@ -1,8 +1,8 @@
 /**
  * Created by caroles on 28/03/2017.
  */
-public class Dado {
-    public Dado (int lados) extends java.lang.Object {
+public class Dado extends java.lang.Object {
+    public Dado (int lados)  {
         this.lados = lados;
     }
     public Dado () {
