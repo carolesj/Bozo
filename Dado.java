@@ -14,7 +14,7 @@ public class Dado extends java.lang.Object {
     Random resultado = new Random();
 
     public int rolar () {
-        ultimoLancamento = Random.getIntRand(this.lados);
+        ultimoLancamento = (Random.getIntRand(this.lados) + 1);
         return this.ultimoLancamento;
     }
 
@@ -26,46 +26,46 @@ public class Dado extends java.lang.Object {
     public String toString () {
         switch (ultimoLancamento) {
             case 1:
-                return "+-----+" +
-                        "|     |" +
-                        "|  *  |" +
-                        "|     |" +
-                        "+-----+";
+                return "+-----+\n" +
+                        "|     |\n" +
+                        "|  *  |\n" +
+                        "|     |\n" +
+                        "+-----+\n\n";
                 break;
             case 2:
-                return "+-----+" +
-                        "|*    |" +
-                        "|     |" +
-                        "|    *|" +
-                        "+-----+";
+                return "+-----+\n" +
+                        "|*    |\n" +
+                        "|     |\n" +
+                        "|    *|\n" +
+                        "+-----+\n\n";
                 break;
             case 3:
-                return "+-----+" +
-                        "|*    |" +
-                        "|  *  |" +
-                        "|    *|" +
-                        "+-----+";
+                return "+-----+\n" +
+                        "|*    |\n" +
+                        "|  *  |\n" +
+                        "|    *|\n" +
+                        "+-----+\n\n";
                 break;
             case 4:
-                return "+-----+" +
-                        "|*   *|" +
-                        "|     |" +
-                        "|*   *|" +
-                        "+-----+";
+                return "+-----+\n" +
+                        "|*   *|\n" +
+                        "|     |\n" +
+                        "|*   *|\n" +
+                        "+-----+\n\n";
                 break;
             case 5:
-                return "+-----+" +
-                        "|*   *|" +
-                        "|  *  |" +
-                        "|*   *|" +
-                        "+-----+";
+                return "+-----+\n" +
+                        "|*   *|\n" +
+                        "|  *  |\n" +
+                        "|*   *|\n" +
+                        "+-----+\n\n";
                 break;
             case 6:
-                return "+-----+" +
-                        "|*   *|" +
-                        "|*   *|" +
-                        "|*   *|" +
-                        "+-----+";
+                return "+-----+\n" +
+                        "|*   *|\n" +
+                        "|*   *|\n" +
+                        "|*   *|\n" +
+                        "+-----+\n\n";
                 break;
         }
     }
