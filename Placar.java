@@ -153,13 +153,13 @@ public class Placar {
     }
 
     public String toString () {
-        return "("+placar[0]+")    |   ("+placar[6]+")    |   ("+placar[3]+") \n" +
+        return " "+placar[0]+"     |    "+placar[6]+"     |    "+placar[3]+"  \n" +
                 " --------------------------\n" +
-                " ("+placar[1]+")    |   "+placar[7]+"     |   ("+placar[4]+") \n" +
+                " "+placar[1]+"    |   "+placar[7]+"     |    "+placar[4]+"  \n" +
                 " --------------------------\n" +
-                " ("+placar[2]+")    |   "+placar[8]+"     |   ("+placar[5]+") \n" +
+                " "+placar[2]+"     |   "+placar[8]+"     |    "+placar[5]+"  \n" +
                 "--------------------------\n" +
-                "        |   ("+placar[9]+")   |\n" +
+                "        |    "+placar[9]+"    |\n" +
                 "        +----------+ "
     }
 
