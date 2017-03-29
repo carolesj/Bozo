@@ -23,49 +23,50 @@ public class Dado extends java.lang.Object {
     }
 
     @Override
-    public String toString () {
-        switch (ultimoLancamento) {
+    public String toString (int face) {
+
+        switch (face) {
             case 1:
-                return "+-----+\n" +
-                        "|     |\n" +
-                        "|  *  |\n" +
-                        "|     |\n" +
-                        "+-----+\n\n";
+                return "+-----+" +
+                        "|     |" +
+                        "|  *  |" +
+                        "|     |" +
+                        "+-----+";
                 break;
             case 2:
-                return "+-----+\n" +
-                        "|*    |\n" +
-                        "|     |\n" +
-                        "|    *|\n" +
-                        "+-----+\n\n";
+                return "+-----+" +
+                        "|*    |" +
+                        "|     |" +
+                        "|    *|" +
+                        "+-----+";
                 break;
             case 3:
-                return "+-----+\n" +
-                        "|*    |\n" +
-                        "|  *  |\n" +
-                        "|    *|\n" +
-                        "+-----+\n\n";
+                return "+-----+" +
+                        "|*    |" +
+                        "|  *  |" +
+                        "|    *|" +
+                        "+-----+";
                 break;
             case 4:
-                return "+-----+\n" +
-                        "|*   *|\n" +
-                        "|     |\n" +
-                        "|*   *|\n" +
-                        "+-----+\n\n";
+                return "+-----+" +
+                        "|*   *|" +
+                        "|     |" +
+                        "|*   *|" +
+                        "+-----+";
                 break;
             case 5:
-                return "+-----+\n" +
-                        "|*   *|\n" +
-                        "|  *  |\n" +
-                        "|*   *|\n" +
-                        "+-----+\n\n";
+                return "+-----+" +
+                        "|*   *|" +
+                        "|  *  |" +
+                        "|*   *|" +
+                        "+-----+";
                 break;
             case 6:
-                return "+-----+\n" +
-                        "|*   *|\n" +
-                        "|*   *|\n" +
-                        "|*   *|\n" +
-                        "+-----+\n\n";
+                return "+-----+" +
+                        "|*   *|" +
+                        "|*   *|" +
+                        "|*   *|" +
+                        "+-----+";
                 break;
         }
     }
